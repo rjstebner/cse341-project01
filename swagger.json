@@ -5,10 +5,9 @@
     "description": "This is a simple CRUD API for users",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "https://cse341-project01-20h9.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
@@ -21,16 +20,6 @@
         "responses": {
           "200": {
             "description": "OK"
-          }
-        }
-      }
-    },
-    "/api-docs": {
-      "get": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
           }
         }
       }
